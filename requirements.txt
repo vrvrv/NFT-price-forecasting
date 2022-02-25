@@ -1,0 +1,23 @@
+yfinance==0.1.70
+statsmodels==0.13.2
+scikit-learn==1.0.2
+pandas-datareader==0.10.0
+parquet
+fastparquet
+
+# --------- torch --------- #
+torch==1.10.2
+pytorch-lightning==1.5.10
+pytorch-forecasting
+
+# --------- hydra --------- #
+hydra-core>=1.1.0
+hydra-colorlog>=1.1.0
+hydra-optuna-sweeper>=1.1.0
+
+# --------- loggers --------- #
+tensorboard
+
+# --------- others --------- #
+matplotlib
+rich

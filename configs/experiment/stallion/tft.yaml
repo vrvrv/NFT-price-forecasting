@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+  - override /model: tft.yaml
+  - override /trainer: gpu.yaml
+  - override /dataset: stallion.yaml
+  - override /logger: tensorboard.yaml
+
+trainer:
+  max_epochs: 20
+
+hydra:
+  run:
+    dir: logs/runs/${now:%Y-%m-%d}/${now:%H-%M-%S}
